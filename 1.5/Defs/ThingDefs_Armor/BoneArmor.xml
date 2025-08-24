@@ -97,14 +97,14 @@
         </filter>
         <count>1</count>
       </li>
-	  <li>
+<!--	  <li>
         <filter>
           <thingDefs>
             <li>DankPyon_Bone</li>
           </thingDefs>
         </filter>
         <count>80</count>
-      </li>
+      </li>-->
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
@@ -116,7 +116,7 @@
         <li MayRequire="ludeon.rimworld.royalty">Apparel_ArmorHelmetCataphract</li>
         <li>Apparel_ArmorHelmetRecon</li>
         <li>Apparel_PowerArmorHelmet</li> -->
-        <li>DankPyon_Bone</li>
+    <!--    <li>DankPyon_Bone</li>-->
       </thingDefs>
     </fixedIngredientFilter>
     <products>

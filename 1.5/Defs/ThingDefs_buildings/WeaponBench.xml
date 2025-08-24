@@ -63,7 +63,7 @@
        <li>pphhyy_Barbarian_MakeRustedJavalin</li>
        <li>pphhyy_Barbarian_MakeRustedThrowingAxe</li>
 
-	   <li>pphhyy_Barbarian_MakeMetalShield</li>
+<!--	   <li>pphhyy_Barbarian_MakeMetalShield</li>
 	   <li>pphhyy_Barbarian_MakeMetalShieldII</li>
 	   <li>pphhyy_Barbarian_MakeMetalShieldIII</li>
 	   
@@ -78,7 +78,7 @@
 	   
 	   <li>pphhyy_Barbarian_MakeTallShield</li>
 	   <li>pphhyy_Barbarian_MakeTallShieldII</li>
-	   <li>pphhyy_Barbarian_MakeTallShieldIII</li>	   
+	   <li>pphhyy_Barbarian_MakeTallShieldIII</li>	   -->
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>

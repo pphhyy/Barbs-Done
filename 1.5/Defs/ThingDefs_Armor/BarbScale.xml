@@ -82,7 +82,7 @@
     <workAmount>1000</workAmount>
     <targetCountAdjustment>1</targetCountAdjustment>
     <ingredients>
-      <li>
+  <!--    <li>
         <filter>
           <thingDefs>
             <li>DankPyon_Apparel_Light_Lamellar</li>
@@ -97,7 +97,7 @@
           </thingDefs>
         </filter>
         <count>1</count>
-      </li>
+      </li>-->
 	  <li>
         <filter>
           <thingDefs>
@@ -109,7 +109,7 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-            <li>DankPyon_Apparel_Light_Lamellar</li>
+         <!--   <li>DankPyon_Apparel_Light_Lamellar</li>
             <li>DankPyon_Apparel_Padded_Leather</li>
             <li>Dankpyon_Apparel_Gambeson</li>
             <li>DankPyon_Apparel_Hauberk</li>
@@ -117,7 +117,7 @@
             <li>DankPyon_Apparel_Heraldic_Hauberk1c</li>
             <li>DankPyon_Apparel_Heraldic_Hauberk2c</li>
             <li>DankPyon_Apparel_Heraldic_Hauberk3c</li>
-            <li>DankPyon_Apparel_Heraldic_Hauberk4c</li>
+            <li>DankPyon_Apparel_Heraldic_Hauberk4c</li>-->
             <li>Skull</li>
       </thingDefs>
     </fixedIngredientFilter>

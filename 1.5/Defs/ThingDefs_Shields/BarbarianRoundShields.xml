@@ -57,7 +57,7 @@
 					<offset>(0.25, -0.047, 0.15)</offset>
 				</south>
 				<west>
-					<offset>(0.15, -0.05, 0.1)</offset> <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
+					<offset>(0.15, -0.05, 0.1)</offset> 
 					<behind>true</behind>
 				</west>
 			</offHandHoldOffset>
@@ -97,7 +97,7 @@
     <workAmount>1000</workAmount>
     <targetCountAdjustment>1</targetCountAdjustment>
     <ingredients>
-      <li>
+<!--      <li>
         <filter>
           <thingDefs>
             <li>DankPyon_Shield</li>
@@ -110,7 +110,7 @@
           </thingDefs>
         </filter>
         <count>1</count>
-      </li>
+      </li>-->
 	  <li>
         <filter>
           <thingDefs>
@@ -122,13 +122,13 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>DankPyon_Shield</li>
+<!--        <li>DankPyon_Shield</li>
         <li>DankPyon_ShieldKite</li>
         <li>DankPyon_ShieldHeater</li>
         <li>DankPyon_ShieldHeater_Amboise</li>
         <li>DankPyon_ShieldHeater_Soren</li>
         <li>DankPyon_ShieldHeater_Oswin</li>
-        <li>DankPyon_ShieldHeater_Hesse</li>
+        <li>DankPyon_ShieldHeater_Hesse</li>-->
         <li>Skull</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -193,7 +193,7 @@
 					<offset>(0.25, -0.047, 0.15)</offset>
 				</south>
 				<west>
-					<offset>(0.15, -0.05, 0.1)</offset> <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
+					<offset>(0.15, -0.05, 0.1)</offset> 
 					<behind>true</behind>
 				</west>
 			</offHandHoldOffset>
@@ -317,7 +317,7 @@
 					<offset>(0.25, -0.047, 0.15)</offset>
 				</south>
 				<west>
-					<offset>(0.15, -0.05, 0.1)</offset> <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
+					<offset>(0.15, -0.05, 0.1)</offset> 
 					<behind>true</behind>
 				</west>
 			</offHandHoldOffset>

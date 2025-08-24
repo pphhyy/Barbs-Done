@@ -165,7 +165,7 @@
             </shieldTags>
           </li>
         </modExtensions-->
-		<modExtensions Inherit="False">
+<!--		<modExtensions Inherit="False">
 		  <li Class="VFECore.PawnKindDefExtension">
 			<shieldMoney>
 			  <min>0</min>
@@ -175,7 +175,7 @@
 			  <li>pphhyy_Barbarian_BarbRoundShield1</li>
 			</shieldTags>
 		  </li>		
-		</modExtensions>
+		</modExtensions>-->
 	</PawnKindDef>
 	<!-- ==========[Basic, Marauder Shield]========== -->
 	<PawnKindDef ParentName="pphhyy_Barbarian_MarauderBase">
@@ -203,7 +203,7 @@
             </shieldTags>
           </li>
         </modExtensions-->
-		<modExtensions Inherit="False">
+<!--		<modExtensions Inherit="False">
 		  <li Class="VFECore.PawnKindDefExtension">
 			<shieldMoney>
 			  <min>0</min>
@@ -213,7 +213,7 @@
 			  <li>pphhyy_Barbarian_BarbRoundShield1</li>
 			</shieldTags>
 		  </li>		
-		</modExtensions>
+		</modExtensions>-->
 	</PawnKindDef>
 
     <PawnKindDef ParentName="pphhyy_Barbarian_MarauderBase">
@@ -276,7 +276,7 @@
             </shieldTags>
           </li>
         </modExtensions-->
-		<modExtensions Inherit="False">
+<!--		<modExtensions Inherit="False">
 		  <li Class="VFECore.PawnKindDefExtension">
 			<shieldMoney>
 			  <min>0</min>
@@ -288,7 +288,7 @@
               <li>pphhyy_Barbarian_BarbTallShield1</li>
 			</shieldTags>
 		  </li>		
-		</modExtensions>
+		</modExtensions>-->
 	</PawnKindDef>
 
     <PawnKindDef ParentName="pphhyy_Barbarian_WarriorBase">
@@ -339,7 +339,7 @@
             </shieldTags>
           </li>
         </modExtensions-->
-		<modExtensions Inherit="False">
+<!--		<modExtensions Inherit="False">
 		  <li Class="VFECore.PawnKindDefExtension">
 			<shieldMoney>
 			  <min>0</min>
@@ -355,7 +355,7 @@
               <li>pphhyy_Barbarian_BarbMetalShield1</li>
 			</shieldTags>
 		  </li>		
-		</modExtensions>
+		</modExtensions>-->
 	</PawnKindDef>
 
     <PawnKindDef ParentName="pphhyy_Barbarian_ChosenBase">
@@ -404,7 +404,7 @@
             </shieldTags>
           </li>
         </modExtensions-->
-		<modExtensions Inherit="False">
+<!--		<modExtensions Inherit="False">
 		  <li Class="VFECore.PawnKindDefExtension">
 			<shieldMoney>
 			  <min>0</min>
@@ -416,7 +416,7 @@
               <li>pphhyy_Barbarian_BarbMetalShield3</li>
 			</shieldTags>
 		  </li>		
-		</modExtensions>
+		</modExtensions>-->
 	</PawnKindDef>
 	
 </Defs>

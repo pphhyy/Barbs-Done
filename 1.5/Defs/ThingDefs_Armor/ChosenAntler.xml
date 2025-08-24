@@ -64,14 +64,14 @@
       <li>
         <filter>
           <thingDefs>
-            <li>DankPyon_Headgear_ClosedBascinetHelmet</li>
+     <!--       <li>DankPyon_Headgear_ClosedBascinetHelmet</li>
             <li>DankPyon_Headgear_SalletHelmet</li>
             <li>DankPyon_Headgear_Bascinet_KlappvisierHelmetClosed</li>
             <li>DankPyon_Headgear_GreatHelm</li>
             <li>DankPyon_Headgear_HeraldicGreatHelm1c</li>
             <li>DankPyon_Headgear_HeraldicGreatHelm2c</li>
             <li>DankPyon_Headgear_HeraldicGreatHelm3c</li>
-            <li>DankPyon_Headgear_HeraldicGreatHelm4c</li>
+            <li>DankPyon_Headgear_HeraldicGreatHelm4c</li>-->
             <li MayRequire="ludeon.rimworld.royalty">Apparel_ArmorHelmetCataphract</li>
             <li>Apparel_ArmorHelmetRecon</li>
             <li>Apparel_PowerArmorHelmet</li>
@@ -90,14 +90,14 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-            <li>DankPyon_Headgear_ClosedBascinetHelmet</li>
+<!--            <li>DankPyon_Headgear_ClosedBascinetHelmet</li>
             <li>DankPyon_Headgear_SalletHelmet</li>
             <li>DankPyon_Headgear_Bascinet_KlappvisierHelmetClosed</li>
             <li>DankPyon_Headgear_GreatHelm</li>
             <li>DankPyon_Headgear_HeraldicGreatHelm1c</li>
             <li>DankPyon_Headgear_HeraldicGreatHelm2c</li>
             <li>DankPyon_Headgear_HeraldicGreatHelm3c</li>
-            <li>DankPyon_Headgear_HeraldicGreatHelm4c</li>
+            <li>DankPyon_Headgear_HeraldicGreatHelm4c</li>-->
             <li MayRequire="ludeon.rimworld.royalty">Apparel_ArmorHelmetCataphract</li>
             <li>Apparel_ArmorHelmetRecon</li>
             <li>Apparel_PowerArmorHelmet</li>

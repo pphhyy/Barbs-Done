@@ -78,8 +78,8 @@
       <li>Neolithic</li>
     </weaponClasses>
     <costList>
-      <DankPyon_Bone>20</DankPyon_Bone>
-      <!-- <WoodLog>20</WoodLog> -->
+      <!--<DankPyon_Bone>20</DankPyon_Bone>-->
+       <WoodLog>20</WoodLog> 
     </costList>
     <statBases>
       <WorkToMake>4000</WorkToMake>
@@ -137,7 +137,7 @@
       <li>Neolithic</li>
     </weaponClasses>
     <costList>
-      <DankPyon_Bone>20</DankPyon_Bone>
+     <!-- <DankPyon_Bone>20</DankPyon_Bone>-->
       <WoodLog>10</WoodLog>
     </costList>
     <statBases>
@@ -191,7 +191,7 @@
       <li>Neolithic</li>
     </weaponClasses>
     <costList>
-      <DankPyon_Bone>50</DankPyon_Bone>
+    <!--  <DankPyon_Bone>50</DankPyon_Bone>-->
       <WoodLog>10</WoodLog>
     </costList>
     <statBases>
@@ -245,7 +245,7 @@
       <li>Neolithic</li>
     </weaponClasses>
     <costList>
-      <DankPyon_Bone>30</DankPyon_Bone>
+    <!--  <DankPyon_Bone>30</DankPyon_Bone>-->
       <WoodLog>10</WoodLog>
       <Skull>1</Skull>
     </costList>
@@ -348,10 +348,10 @@
           <thingDefs>
             <li>MeleeWeapon_Gladius</li>
             <li>MeleeWeapon_LongSword</li>
-            <li>DankPyon_MeleeWeapon_Falchion</li>
+      <!--      <li>DankPyon_MeleeWeapon_Falchion</li>
             <li>DankPyon_MeleeWeapon_ArmingSword</li>
             <li>DankPyon_MeleeWeapon_FencingSword</li>
-            <li>DankPyon_MeleeWeapon_NobleSword</li>
+            <li>DankPyon_MeleeWeapon_NobleSword</li>-->
           </thingDefs>
         </filter>
         <count>1</count>
@@ -368,11 +368,11 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>MeleeWeapon_Gladius</li>
-        <!-- <li>MeleeWeapon_LongSword</li> -->
-        <li>DankPyon_MeleeWeapon_Falchion</li>
+        <li>MeleeWeapon_LongSword</li> 
+    <!--    <li>DankPyon_MeleeWeapon_Falchion</li>
         <li>DankPyon_MeleeWeapon_ArmingSword</li>
         <li>DankPyon_MeleeWeapon_FencingSword</li>
-        <li>DankPyon_MeleeWeapon_NobleSword</li>
+        <li>DankPyon_MeleeWeapon_NobleSword</li>-->
         <li>Skull</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -441,9 +441,9 @@
       <li>
         <filter>
           <thingDefs>
-            <li>DankPyon_MeleeWeapon_Longsword</li>
+     <!--       <li>DankPyon_MeleeWeapon_Longsword</li>-->
             <li>MeleeWeapon_LongSword</li>
-            <li>DankPyon_MeleeWeapon_Greatsword</li>
+   <!--         <li>DankPyon_MeleeWeapon_Greatsword</li>-->
           </thingDefs>
         </filter>
         <count>1</count>
@@ -459,9 +459,9 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>DankPyon_MeleeWeapon_Longsword</li>
+    <!--    <li>DankPyon_MeleeWeapon_Longsword</li>-->
         <li>MeleeWeapon_LongSword</li>
-        <li>DankPyon_MeleeWeapon_Greatsword</li>
+    <!--    <li>DankPyon_MeleeWeapon_Greatsword</li>-->
         <li>Skull</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -532,7 +532,7 @@
     <workAmount>1000</workAmount>
     <targetCountAdjustment>1</targetCountAdjustment>
     <ingredients>
-      <li>
+<!--      <li>
         <filter>
           <thingDefs>
             <li>DankPyon_MeleeWeapon_Hatchet</li>
@@ -541,7 +541,7 @@
           </thingDefs>
         </filter>
         <count>1</count>
-      </li>
+      </li>-->
 	  <li>
         <filter>
           <thingDefs>
@@ -553,9 +553,9 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>DankPyon_MeleeWeapon_Hatchet</li>
+ <!--       <li>DankPyon_MeleeWeapon_Hatchet</li>
         <li>DankPyon_MeleeWeapon_Handaxe</li>
-        <li>DankPyon_MeleeWeapon_FightingAxe</li>
+        <li>DankPyon_MeleeWeapon_FightingAxe</li>-->
         <li>Skull</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -621,7 +621,7 @@
     <workAmount>1000</workAmount>
     <targetCountAdjustment>1</targetCountAdjustment>
     <ingredients>
-      <li>
+   <!--   <li>
         <filter>
           <thingDefs>
             <li>DankPyon_MeleeWeapon_WoodcuttersAxe</li>
@@ -631,7 +631,7 @@
           </thingDefs>
         </filter>
         <count>1</count>
-      </li>
+      </li>-->
 	  <li>
         <filter>
           <thingDefs>
@@ -643,10 +643,10 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>DankPyon_MeleeWeapon_WoodcuttersAxe</li>
+ <!--       <li>DankPyon_MeleeWeapon_WoodcuttersAxe</li>
         <li>DankPyon_MeleeWeapon_Bardiche</li>
         <li>DankPyon_MeleeWeapon_Greataxe</li>
-        <li>DankPyon_MeleeWeapon_Longaxe</li>
+        <li>DankPyon_MeleeWeapon_Longaxe</li>-->
         <li>Skull</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -715,17 +715,17 @@
       <li>
         <filter>
           <thingDefs>
-            <li>DankPyon_MeleeWeapon_Warfork</li>
+   <!--         <li>DankPyon_MeleeWeapon_Warfork</li>
             <li>DankPyon_MeleeWeapon_Spetum</li>
             <li>DankPyon_MeleeWeapon_Pitchfork</li>
-            <li>DankPyon_MeleeWeapon_HookedBlade</li>
+            <li>DankPyon_MeleeWeapon_HookedBlade</li>-->
             <li>MeleeWeapon_Spear</li>
-            <li>DankPyon_MeleeWeapon_Billhook</li>
+    <!--        <li>DankPyon_MeleeWeapon_Billhook</li>
             <li>DankPyon_MeleeWeapon_Pike</li>
             <li>DankPyon_MeleeWeapon_Swordlance</li>
             <li>DankPyon_MeleeWeapon_MilitiaSpear</li>
             <li>DankPyon_MeleeWeapon_BoarSpear</li>
-            <li>DankPyon_MeleeWeapon_FightingSpear</li>
+            <li>DankPyon_MeleeWeapon_FightingSpear</li>-->
           </thingDefs>
         </filter>
         <count>1</count>
@@ -741,17 +741,17 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>DankPyon_MeleeWeapon_Warfork</li>
+<!--        <li>DankPyon_MeleeWeapon_Warfork</li>
         <li>DankPyon_MeleeWeapon_Spetum</li>
         <li>DankPyon_MeleeWeapon_Pitchfork</li>
-        <li>DankPyon_MeleeWeapon_HookedBlade</li>
+        <li>DankPyon_MeleeWeapon_HookedBlade</li>-->
         <li>MeleeWeapon_Spear</li>
-        <li>DankPyon_MeleeWeapon_Billhook</li>
+<!--        <li>DankPyon_MeleeWeapon_Billhook</li>
         <li>DankPyon_MeleeWeapon_Pike</li>
         <li>DankPyon_MeleeWeapon_Swordlance</li>
         <li>DankPyon_MeleeWeapon_MilitiaSpear</li>
         <li>DankPyon_MeleeWeapon_BoarSpear</li>
-        <li>DankPyon_MeleeWeapon_FightingSpear</li>
+        <li>DankPyon_MeleeWeapon_FightingSpear</li>-->
         <li>Skull</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -826,14 +826,14 @@
         <filter>
           <thingDefs>
             <li>MeleeWeapon_Mace</li>
-            <li>DankPyon_MeleeWeapon_Bludgeon</li>
+     <!--       <li>DankPyon_MeleeWeapon_Bludgeon</li>
             <li>DankPyon_MeleeWeapon_NomadMace</li>
             <li>DankPyon_MeleeWeapon_MorningStar</li>
             <li>DankPyon_MeleeWeapon_WingedMace</li>
             <li>DankPyon_MeleeWeapon_Goedendag</li>
             <li>DankPyon_MeleeWeapon_Pickaxe</li>
             <li>DankPyon_MeleeWeapon_MilitaryPick</li>
-            <li>DankPyon_MeleeWeapon_Warhammer</li>
+            <li>DankPyon_MeleeWeapon_Warhammer</li>-->
           </thingDefs>
         </filter>
         <count>1</count>
@@ -850,14 +850,14 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>MeleeWeapon_Mace</li>
-        <li>DankPyon_MeleeWeapon_Bludgeon</li>
+<!--        <li>DankPyon_MeleeWeapon_Bludgeon</li>
         <li>DankPyon_MeleeWeapon_NomadMace</li>
         <li>DankPyon_MeleeWeapon_MorningStar</li>
         <li>DankPyon_MeleeWeapon_WingedMace</li>
         <li>DankPyon_MeleeWeapon_Goedendag</li>
         <li>DankPyon_MeleeWeapon_Pickaxe</li>
         <li>DankPyon_MeleeWeapon_MilitaryPick</li>
-        <li>DankPyon_MeleeWeapon_Warhammer</li>
+        <li>DankPyon_MeleeWeapon_Warhammer</li>-->
         <li>Skull</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -932,14 +932,14 @@
         <filter>
           <thingDefs>
             <li>MeleeWeapon_Mace</li>
-            <li>DankPyon_MeleeWeapon_Bludgeon</li>
+        <!--    <li>DankPyon_MeleeWeapon_Bludgeon</li>
             <li>DankPyon_MeleeWeapon_NomadMace</li>
             <li>DankPyon_MeleeWeapon_MorningStar</li>
             <li>DankPyon_MeleeWeapon_WingedMace</li>
             <li>DankPyon_MeleeWeapon_Goedendag</li>
             <li>DankPyon_MeleeWeapon_Pickaxe</li>
             <li>DankPyon_MeleeWeapon_MilitaryPick</li>
-            <li>DankPyon_MeleeWeapon_Warhammer</li>
+            <li>DankPyon_MeleeWeapon_Warhammer</li>-->
           </thingDefs>
         </filter>
         <count>1</count>
@@ -956,14 +956,14 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>MeleeWeapon_Mace</li>
-        <li>DankPyon_MeleeWeapon_Bludgeon</li>
+    <!--    <li>DankPyon_MeleeWeapon_Bludgeon</li>
         <li>DankPyon_MeleeWeapon_NomadMace</li>
         <li>DankPyon_MeleeWeapon_MorningStar</li>
         <li>DankPyon_MeleeWeapon_WingedMace</li>
         <li>DankPyon_MeleeWeapon_Goedendag</li>
         <li>DankPyon_MeleeWeapon_Pickaxe</li>
         <li>DankPyon_MeleeWeapon_MilitaryPick</li>
-        <li>DankPyon_MeleeWeapon_Warhammer</li>
+        <li>DankPyon_MeleeWeapon_Warhammer</li>-->
         <li>Skull</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -1029,7 +1029,7 @@
     <workAmount>1000</workAmount>
     <targetCountAdjustment>1</targetCountAdjustment>
     <ingredients>
-      <li>
+<!--      <li>
         <filter>
           <thingDefs>
             <li>DankPyon_MeleeWeapon_TwoHandedMallet</li>
@@ -1041,7 +1041,7 @@
           </thingDefs>
         </filter>
         <count>1</count>
-      </li>
+      </li>-->
 	  <li MayRequire="Ludeon.RimWorld.Ideology">
         <filter>
           <thingDefs>
@@ -1053,12 +1053,12 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>DankPyon_MeleeWeapon_TwoHandedMallet</li>
+    <!--    <li>DankPyon_MeleeWeapon_TwoHandedMallet</li>
         <li>DankPyon_MeleeWeapon_TwoHandedHammer</li>
         <li>DankPyon_MeleeWeapon_Polehammer</li>
         <li>DankPyon_MeleeWeapon_Goedendag</li>
         <li>DankPyon_MeleeWeapon_TwoHandedFlangedMace</li>
-        <li>DankPyon_MeleeWeapon_TwoHandedMace</li>
+        <li>DankPyon_MeleeWeapon_TwoHandedMace</li>-->
         <li MayRequire="Ludeon.RimWorld.Ideology">Skull</li>
       </thingDefs>
     </fixedIngredientFilter>

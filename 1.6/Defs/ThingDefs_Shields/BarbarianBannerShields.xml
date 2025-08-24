@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="pphhyy_BaseShield" Abstract="True">
+		<costList>
+		  <Skull>1</Skull>
+		</costList>
+    <thingClass>VEF.Apparels.Apparel_Shield</thingClass>
+		<burnableByRecipe>true</burnableByRecipe>
+		<smeltable>false</smeltable>
+	</ThingDef>
+
+<ThingDef ParentName="pphhyy_BaseShield" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+    <defName>pphhyy_Barbarian_BarbBannerI</defName>
+    <label>Barbarian Banner I</label>
+    <description>The barbarian banner is a fierce and intimidating symbol, crafted from a sturdy wooden shield and adorned with the skulls and horns of defeated foes. The banner is mounted on a tall standard, and is sure to strike fear into the hearts of any who behold it. The skull and bones design on the banner represents the ferocity and power of the barbarian tribe, and serves as a warning to all who would dare to challenge them.</description>
+    <equipmentType>None</equipmentType>
+    <graphicData>
+      <texPath>Shields/BarbBannerI</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <statBases>
+      <WorkToMake>100</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>2.0</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
+      <MoveSpeed>-1.6</MoveSpeed>
+	  <Flammability>0.3</Flammability>
+	  <ArmorRating_Sharp>0.396</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.198</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.264</ArmorRating_Heat>
+    </equippedStatOffsets>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <comps>
+		<li Class="VEF.Apparels.CompProperties_Shield">
+			<shieldTags>
+				<li>NeolithicMeleeBasic</li>
+			</shieldTags>
+			<useDeflectMetalEffect>false</useDeflectMetalEffect>
+			<coveredBodyPartGroups>
+				<li>Neck</li>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Hands</li>
+			</coveredBodyPartGroups>
+			<offHandGraphicData>
+				<texPath>Shields/BarbBannerI</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<shaderType>CutoutComplex</shaderType>
+				<drawSize>2.5</drawSize>
+			</offHandGraphicData>
+			<offHandHoldOffset>
+				<northDefault>
+					<offset>(-0.4, 0, 0.8)</offset>
+					<behind>true</behind>
+				</northDefault>
+				<east>
+					<offset>(-0.15, 0, 0.75)</offset>
+					<behind>true</behind>
+				</east>
+				<south>
+					<offset>(0.4, -0.047, 0.8)</offset>
+				</south>
+				<west>
+					<offset>(0.15, -0.05, 0.75)</offset> 
+					<behind>true</behind>
+				</west>
+			</offHandHoldOffset>
+		</li>
+    </comps>
+    <tools>
+      <li>
+        <label>side</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>0.8</cooldownTime>
+      </li>
+      <li>
+        <label>buckle</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.0</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>pphhyy_Barbarian_MakeBarbBannerI</defName>
+    <label>make Barbarian Banner</label>
+    <description>The barbarian banner is a symbol of the tribe's strength and ferocity, crafted through a ritualistic process that involves reinforcing a wooden shield with stone blocks, and adorning it with the skulls and horns of defeated foes. The process is not only technical but also spiritual, as the tribe's craftspersons imbue the banner with the tribe's power and ferocity through the use of materials and symbolic decorations. The end result is a fierce and intimidating symbol that strikes fear into the hearts of all who behold it, and serves as a warning to any who would dare to challenge the tribe.</description>
+    <jobString>Making Shield.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+<!--      <li>
+        <filter>
+          <thingDefs>
+            <li>DankPyon_Shield</li>
+            <li>DankPyon_ShieldKite</li>
+            <li>DankPyon_ShieldHeater</li>
+            <li>DankPyon_ShieldHeater_Amboise</li>
+            <li>DankPyon_ShieldHeater_Soren</li>
+            <li>DankPyon_ShieldHeater_Oswin</li>
+            <li>DankPyon_ShieldHeater_Hesse</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>-->
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Skull</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+<!--        <li>DankPyon_Shield</li>
+        <li>DankPyon_ShieldKite</li>
+        <li>DankPyon_ShieldHeater</li>
+        <li>DankPyon_ShieldHeater_Amboise</li>
+        <li>DankPyon_ShieldHeater_Soren</li>
+        <li>DankPyon_ShieldHeater_Oswin</li>
+        <li>DankPyon_ShieldHeater_Hesse</li>-->
+        <li>Skull</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <pphhyy_Barbarian_BarbBannerI>1</pphhyy_Barbarian_BarbBannerI>
+    </products>
+  </RecipeDef>
+
+  <ThingDef ParentName="pphhyy_BaseShield" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+    <defName>pphhyy_Barbarian_BarbBannerII</defName>
+    <label>Barbarian Banner II</label>
+    <description>The barbarian banner is a fierce and intimidating symbol, crafted from a sturdy wooden shield and adorned with the skulls and horns of defeated foes. The banner is mounted on a tall standard, and is sure to strike fear into the hearts of any who behold it. The skull and bones design on the banner represents the ferocity and power of the barbarian tribe, and serves as a warning to all who would dare to challenge them.</description>
+    <equipmentType>None</equipmentType>
+    <graphicData>
+      <texPath>Shields/BarbBannerII</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <statBases>
+      <WorkToMake>100</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>2.0</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
+      <MoveSpeed>-1.6</MoveSpeed>
+	  <Flammability>0.3</Flammability>
+	  <ArmorRating_Sharp>0.455</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.228</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.304</ArmorRating_Heat>
+    </equippedStatOffsets>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <comps>
+		<li Class="VEF.Apparels.CompProperties_Shield">
+			<shieldTags>
+				<li>NeolithicMeleeBasic</li>
+			</shieldTags>
+			<useDeflectMetalEffect>false</useDeflectMetalEffect>
+			<coveredBodyPartGroups>
+				<li>Neck</li>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Hands</li>
+			</coveredBodyPartGroups>
+			<offHandGraphicData>
+				<texPath>Shields/BarbBannerII</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<shaderType>CutoutComplex</shaderType>
+				<drawSize>2.5</drawSize>
+			</offHandGraphicData>
+			<offHandHoldOffset>
+				<northDefault>
+					<offset>(-0.4, 0, 0.8)</offset>
+					<behind>true</behind>
+				</northDefault>
+				<east>
+					<offset>(-0.15, 0, 0.75)</offset>
+					<behind>true</behind>
+				</east>
+				<south>
+					<offset>(0.4, -0.047, 0.8)</offset>
+				</south>
+				<west>
+					<offset>(0.15, -0.05, 0.75)</offset> 
+					<behind>true</behind>
+				</west>
+			</offHandHoldOffset>
+		</li>
+    </comps>
+    <tools>
+      <li>
+        <label>side</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>0.8</cooldownTime>
+      </li>
+      <li>
+        <label>buckle</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.0</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>pphhyy_Barbarian_MakeBarbBannerII</defName>
+    <label>make Barbarian Banner II</label>
+    <description>The Barbarian Banner II is a symbol of the tribe's strength and ferocity, crafted through a ritualistic process that involves reinforcing a wooden shield with stone blocks, and adorning it with the skulls and horns of defeated foes. The process is not only technical but also spiritual, as the tribe's craftspersons imbue the banner with the tribe's power and ferocity through the use of materials and symbolic decorations. The end result is a fierce and intimidating symbol that strikes fear into the hearts of all who behold it, and serves as a warning to any who would dare to challenge the tribe.</description>
+    <jobString>Making Shield.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>pphhyy_Barbarian_BarbBannerI</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Skull</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>pphhyy_Barbarian_BarbBannerI</li>
+        <li>Skull</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <pphhyy_Barbarian_BarbBannerII>1</pphhyy_Barbarian_BarbBannerII>
+    </products>
+  </RecipeDef>
+
+  <ThingDef ParentName="pphhyy_BaseShield" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+    <defName>pphhyy_Barbarian_BarbBannerIII</defName>
+    <label>Barbarian Banner III</label>
+    <description>The barbarian banner is a fierce and intimidating symbol, crafted from a sturdy wooden shield and adorned with the skulls and horns of defeated foes. The banner is mounted on a tall standard, and is sure to strike fear into the hearts of any who behold it. The skull and bones design on the banner represents the ferocity and power of the barbarian tribe, and serves as a warning to all who would dare to challenge them.</description>
+    <equipmentType>None</equipmentType>
+    <graphicData>
+      <texPath>Shields/BarbBannerIII</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <statBases>
+      <WorkToMake>100</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>2.0</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
+      <MoveSpeed>-1.6</MoveSpeed>
+	  <Flammability>0.3</Flammability>
+	  <ArmorRating_Sharp>0.523</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.2262</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.35</ArmorRating_Heat>
+    </equippedStatOffsets>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <comps>
+		<li Class="VEF.Apparels.CompProperties_Shield">
+			<shieldTags>
+				<li>NeolithicMeleeBasic</li>
+			</shieldTags>
+			<useDeflectMetalEffect>false</useDeflectMetalEffect>
+			<coveredBodyPartGroups>
+				<li>Neck</li>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Hands</li>
+			</coveredBodyPartGroups>
+			<offHandGraphicData>
+				<texPath>Shields/BarbBannerIII</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<shaderType>CutoutComplex</shaderType>
+				<drawSize>2.5</drawSize>
+			</offHandGraphicData>
+			<offHandHoldOffset>
+				<northDefault>
+					<offset>(-0.4, 0, 0.8)</offset>
+					<behind>true</behind>
+				</northDefault>
+				<east>
+					<offset>(-0.15, 0, 0.75)</offset>
+					<behind>true</behind>
+				</east>
+				<south>
+					<offset>(0.4, -0.047, 0.8)</offset>
+				</south>
+				<west>
+					<offset>(0.15, -0.05, 0.75)</offset> 
+					<behind>true</behind>
+				</west>
+			</offHandHoldOffset>
+		</li>
+    </comps>
+    <tools>
+      <li>
+        <label>side</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>0.8</cooldownTime>
+      </li>
+      <li>
+        <label>buckle</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.0</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>pphhyy_Barbarian_MakeBarbBannerIII</defName>
+    <label>make Barbarian Banner III</label>
+    <description>The Barbarian Banner II is a symbol of the tribe's strength and ferocity, crafted through a ritualistic process that involves reinforcing a wooden shield with stone blocks, and adorning it with the skulls and horns of defeated foes. The process is not only technical but also spiritual, as the tribe's craftspersons imbue the banner with the tribe's power and ferocity through the use of materials and symbolic decorations. The end result is a fierce and intimidating symbol that strikes fear into the hearts of all who behold it, and serves as a warning to any who would dare to challenge the tribe.</description>
+    <jobString>Making Shield.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>pphhyy_Barbarian_BarbBannerII</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Skull</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>pphhyy_Barbarian_BarbBannerII</li>
+        <li>Skull</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <pphhyy_Barbarian_BarbBannerIII>1</pphhyy_Barbarian_BarbBannerIII>
+    </products>
+  </RecipeDef>
+
+  <ThingDef ParentName="pphhyy_BaseShield" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
+    <defName>pphhyy_Barbarian_BarbBannerIV</defName>
+    <label>Barbarian Banner IV</label>
+    <description>The barbarian banner is a fierce and intimidating symbol, crafted from a sturdy wooden shield and adorned with the skulls and horns of defeated foes. The banner is mounted on a tall standard, and is sure to strike fear into the hearts of any who behold it. The skull and bones design on the banner represents the ferocity and power of the barbarian tribe, and serves as a warning to all who would dare to challenge them.</description>
+    <equipmentType>None</equipmentType>
+    <graphicData>
+      <texPath>Shields/BarbBannerIV</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <statBases>
+      <WorkToMake>100</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>2.0</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
+      <MoveSpeed>-1.6</MoveSpeed>
+	  <Flammability>0.3</Flammability>
+	  <ArmorRating_Sharp>0.523</ArmorRating_Sharp>
+	  <ArmorRating_Blunt>0.2262</ArmorRating_Blunt>
+	  <ArmorRating_Heat>0.35</ArmorRating_Heat>
+      <SocialImpact>0.10</SocialImpact>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+      <PainShockThreshold>0.10</PainShockThreshold>
+    </equippedStatOffsets>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <comps>
+		<li Class="VEF.Apparels.CompProperties_Shield">
+			<shieldTags>
+				<li>NeolithicMeleeBasic</li>
+			</shieldTags>
+			<useDeflectMetalEffect>false</useDeflectMetalEffect>
+			<coveredBodyPartGroups>
+				<li>Neck</li>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Hands</li>
+			</coveredBodyPartGroups>
+			<offHandGraphicData>
+				<texPath>Shields/BarbBannerIV</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<shaderType>CutoutComplex</shaderType>
+				<drawSize>2.5</drawSize>
+			</offHandGraphicData>
+			<offHandHoldOffset>
+				<northDefault>
+					<offset>(-0.4, 0, 0.8)</offset>
+					<behind>true</behind>
+				</northDefault>
+				<east>
+					<offset>(-0.15, 0, 0.75)</offset>
+					<behind>true</behind>
+				</east>
+				<south>
+					<offset>(0.4, -0.047, 0.8)</offset>
+				</south>
+				<west>
+					<offset>(0.15, -0.05, 0.75)</offset> 
+					<behind>true</behind>
+				</west>
+			</offHandHoldOffset>
+		</li>
+    </comps>
+    <tools>
+      <li>
+        <label>side</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>0.8</cooldownTime>
+      </li>
+      <li>
+        <label>buckle</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.0</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>pphhyy_Barbarian_MakeBarbBannerIV</defName>
+    <label>make Barbarian Banner IV</label>
+    <description>The Barbarian Banner IV is a symbol of the tribe's strength and ferocity, crafted through a ritualistic process that involves reinforcing a wooden shield with stone blocks, and adorning it with the skulls and horns of defeated foes. The process is not only technical but also spiritual, as the tribe's craftspersons imbue the banner with the tribe's power and ferocity through the use of materials and symbolic decorations. The end result is a fierce and intimidating symbol that strikes fear into the hearts of all who behold it, and serves as a warning to any who would dare to challenge the tribe.</description>
+    <jobString>Making Shield.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>pphhyy_Barbarian_BarbBannerIII</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Skull</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>pphhyy_Barbarian_BarbBannerIII</li>
+        <li>Skull</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <pphhyy_Barbarian_BarbBannerIV>1</pphhyy_Barbarian_BarbBannerIV>
+    </products>
+  </RecipeDef>
+
+</Defs>
